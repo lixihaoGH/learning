@@ -17,7 +17,7 @@ public class LoginAction {
 
     @RequestMapping(value = "login")
     public String login() {
-
+    loginBussiness.find();
         return "";
     }
 }

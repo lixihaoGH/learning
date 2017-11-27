@@ -189,9 +189,9 @@
       <version>5.0.8</version>
     </dependency>
     <dependency>
-      <groupId>com.alibaba</groupId>
-      <artifactId>druid</artifactId>
-      <version>1.1.0</version>
+      <groupId>c3p0</groupId>
+      <artifactId>c3p0</artifactId>
+      <version>0.9.1.1</version>
     </dependency>
     <!-- MySQL end -->
 
@@ -269,12 +269,6 @@
       <version>4.5.2</version>
     </dependency>
     <!-- Apache end -->
-
-    <dependency>
-      <groupId>c3p0</groupId>
-      <artifactId>c3p0</artifactId>
-      <version>0.9.1.1</version>
-    </dependency>
 
     <!-- lomback begin -->
     <dependency>

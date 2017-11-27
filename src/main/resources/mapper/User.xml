@@ -1,11 +1,16 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
-<mapper>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 
+
+<mapper namespace="com.learning.service.dao.UserDao">
     <sql id="table">
         l_user
     </sql>
+
     <select id="findUser" parameterType="User" resultType="User">
         SELECT * FROM <include refid="table"/> WHERE name = #{name}
     </select>
+
+
 </mapper>

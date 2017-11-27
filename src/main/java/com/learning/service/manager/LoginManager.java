@@ -1,5 +1,6 @@
 package com.learning.service.manager;
 
+import com.learning.entry.User;
 import com.learning.service.api.LoginApi;
 import com.learning.service.dao.UserDao;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -16,4 +17,8 @@ public class LoginManager {
     LoginApi loginApi;
     @Autowired
     UserDao userDao;
+
+    public User findUser(User user){
+        return userDao.findUser(user);
+    }
 }

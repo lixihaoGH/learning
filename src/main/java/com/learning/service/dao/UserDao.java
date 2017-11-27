@@ -9,5 +9,5 @@ import org.springframework.stereotype.Repository;
 
 @Repository
 public interface UserDao {
-    public User findUser(User user);
+    User findUser(User user);
 }
