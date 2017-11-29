@@ -14,9 +14,8 @@ public class LoginBussiness {
     @Autowired
     LoginManager loginManager;
 
-    public String find(){
-        loginManager.findUser(new User());
-        return "";
+    public String find(User user){
+        return loginManager.findUser(user).password;
     }
 
 }

@@ -1,5 +1,6 @@
 package com.learning.action;
 
+import com.learning.entry.User;
 import com.learning.service.bussienss.LoginBussiness;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -17,7 +18,8 @@ public class LoginAction {
 
     @RequestMapping(value = "login")
     public String login() {
-    loginBussiness.find();
-        return "";
+    /*String result = loginBussiness.find(user);
+        return result;*/
+        return "index";
     }
 }

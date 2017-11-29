@@ -196,13 +196,33 @@
     <!-- MySQL end -->
 
 
-    <!-- JSON begin -->
+    <!-- JSON xml begin -->
     <dependency>
       <groupId>com.alibaba</groupId>
       <artifactId>fastjson</artifactId>
       <version>1.2.28</version>
     </dependency>
-    <!-- JSON end -->
+    <dependency>
+      <groupId>com.thoughtworks.xstream</groupId>
+      <artifactId>xstream</artifactId>
+      <version>1.4.4</version>
+    </dependency>
+    <dependency>
+      <groupId>org.codehaus.jackson</groupId>
+      <artifactId>jackson-mapper-asl</artifactId>
+      <version>1.9.13</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-core</artifactId>
+      <version>2.4.2</version>
+    </dependency>
+    <dependency>
+      <groupId>com.fasterxml.jackson.core</groupId>
+      <artifactId>jackson-databind</artifactId>
+      <version>2.4.2</version>
+    </dependency>
+    <!-- JSON xml end -->
 
     <!-- dom4j begin :解析、生成xml-->
     <dependency>
@@ -213,13 +233,13 @@
     <!-- dom4j end -->
 
     <!-- Apache begin -->
-    <!-- 日志 -->
+    <!--&lt;!&ndash; 日志 &ndash;&gt;
     <dependency>
       <groupId>commons-logging</groupId>
       <artifactId>commons-logging</artifactId>
       <version>1.1.1</version>
       <scope>provided</scope>
-    </dependency>
+    </dependency>-->
     <!-- StringUtils,DateUtils等工具类包 -->
     <dependency>
       <groupId>commons-lang</groupId>
